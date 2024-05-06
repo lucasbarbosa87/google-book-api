@@ -1,16 +1,10 @@
-# google_book_api
+# BookApp: Um Aplicativo de Livros em Flutter
 
-A new Flutter project.
+O **BookApp** é um aplicativo que permite aos usuários pesquisar livros, visualizar suas sinopses, dados importantes e obter links para leitura em sites externos. Ele utiliza a API de Livros do Google para buscar informações sobre os livros, aproveitando o vasto acervo disponível.
 
-## Getting Started
+## Recursos e Tecnologias Utilizadas
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Google Book API**: Essa API é usada para buscar dados detalhados dos livros, como título, autor, sinopse e capa.
+- **Flutter Modular**: Foi utulizado para navegação do app e injeção de dependência.
+- **Gerencia de estado**: Utilizado o ValueNotifer/ChangeNotifer
+- **I10n**: Utilizado o flutter_localization com arquivos .arb
