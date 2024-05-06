@@ -1,0 +1,45 @@
+{
+    "@@locale": "en",
+    "homeTitle": "Google Book API",
+    "searchHint": "Enter a search term",
+    "emptyList": "You need search to create book list",
+    "bookTitle": "Title: {title}",
+    "@bookTitle": {
+        "placeholders": {
+            "title": {
+                "type": "String",
+                "example": "Dicionary"
+            }
+        }
+    },
+    "bookPublisher": "Publisher: {publisher}",
+    "@bookPublisher": {
+        "placeholders": {
+            "publisher": {
+                "type": "String",
+                "example": "Dicionary"
+            }
+        }
+    },
+    "bookAuthors": "Author(s): {authors}",
+    "@bookAuthors": {
+        "placeholders": {
+            "authors": {
+                "type": "String",
+                "example": "Joao"
+            }
+        }
+    },
+    "bookCategories": "Categories: {categories}",
+    "@bookCategories": {
+        "placeholders": {
+            "categories": {
+                "type": "String",
+                "example": "Joao"
+            }
+        }
+    },
+    "bookDescription": "Description: ",
+    "bookBuyNow": "Buy Now",
+    "bookDetailTitle": "Book detail"
+}
